@@ -1,0 +1,66 @@
+# -----------------------
+# Flutter / Dart / Pub
+# -----------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+**/generated/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+pubspec.lock
+
+# -----------------------
+# Android / iOS
+# -----------------------
+*.keystore
+*.jks
+*.p12
+*.pem
+*.mobileprovision
+*.ipa
+*.apk
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# -----------------------
+# Firebase configs
+# -----------------------
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+firebase.json
+
+# -----------------------
+# Env & Secrets
+# -----------------------
+.env
+.env.*
+
+# -----------------------
+# IDE / Editors
+# -----------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+/.vscode/
+/.history
+.atom/
+/.svn/
+migrate_working_dir/
+
+# -----------------------
+# Misc
+# -----------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.buildlog/
+app.*.symbols
+app.*.map.json

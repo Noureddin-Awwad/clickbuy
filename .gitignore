@@ -64,3 +64,6 @@ migrate_working_dir/
 .buildlog/
 app.*.symbols
 app.*.map.json
+
+serviceAccountKey.json
+*.json
